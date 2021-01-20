@@ -1,12 +1,11 @@
 /*
     authored by
-    urdad!
+    adenfrost
     on 15-11-2020
-    but you know the date when i authored you ;)
 */
 #pragma GCC optimize("Ofast") 
 #include<bits/stdc++.h>
-#define lli long long int
+#define lli int64_t
 #define you are a noob bitch
 #define MOD 998244353
 using namespace std;
@@ -27,9 +26,9 @@ lli solve(void)
 int main()
 {
     fastaf();
-    int T;
-    cin>>T;
-    for(int i=1;i<=T;i++)
+    int Testcase;
+    cin>>Testcase;
+    for(int i=1;i<=Testcase;i++)
     {
         cout<<"Case #"<<i<<": "<<solve()<<endl;
     }
